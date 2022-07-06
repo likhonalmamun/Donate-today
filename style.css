@@ -63,6 +63,7 @@ p {
   color: rgb(253, 251, 251);
 }
 a {
+  text-align: center;
   text-decoration: none;
   padding: 1.5vh 2vw;
   color: rgb(241, 239, 237);
@@ -113,12 +114,12 @@ a {
   font-size: 2vh;
   margin: 55px;
 }
-#Donate {
+/* #Donate {
   width: 100%;
-}
-#button2 {
-  width: 20vw;
-  margin-left: 45%;
+} */
+.button2 {
+  width: 15vw;
+  margin-left: 22vw;
 }
 footer {
   background-color: rgb(17, 1, 1);
@@ -213,4 +214,12 @@ form a {
   font-size: 1.4vw;
   font-weight: 600;
   color: rgb(111, 107, 107);
+}
+#Pay {
+  width: fit-content;
+  padding: 3vw;
+  padding-top: 0ch;
+}
+#Pay a {
+  font-size: 1vw;
 }
