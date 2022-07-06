@@ -1,5 +1,4 @@
 body {
-  padding: 1vw;
   width: 90vw;
   margin: 0px auto;
   background-color: rgba(238, 238, 236, 0.3);
@@ -13,9 +12,9 @@ body {
 .center {
   text-align: center;
 }
-section {
+/* section {
   border-radius: 2vw;
-}
+} */
 #first {
   background-image: url(img/donation1.jpg);
   background-repeat: no-repeat;
@@ -29,9 +28,9 @@ section {
 }
 h1 {
   font-family: "Roboto Slab", serif;
-  font-size: 5vw;
+  font-size: 4.5vw;
   color: aliceblue;
-  margin: 0 10vw;
+  margin: 0 7vw;
   padding: 18vh 0 5vh 0;
 }
 h2 {
@@ -45,6 +44,10 @@ h3 {
   margin-top: 2vh;
   font-family: "Merienda", cursive;
 }
+h4 {
+  font-size: 1.7vw;
+  font-weight: 600;
+}
 p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.4vw;
@@ -54,7 +57,7 @@ a {
   text-decoration: none;
   padding: 1.5vh 2vw;
   color: rgb(241, 239, 237);
-  background-color: rgb(252, 91, 62);
+  background-color: rgb(243, 78, 49);
   border-radius: 0.5vw;
   font-size: 1.8vw;
   font-weight: 600;
@@ -71,10 +74,12 @@ a {
 .flex {
   display: flex;
   -ms-flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .box {
   padding: 5vh 3vh;
-  margin: 2.5vh 2.5vh 2.5vh 2.5vh;
+  margin: 2.5vh;
 
   font-family: "Roboto Slab";
   font-weight: 800;
@@ -110,13 +115,65 @@ footer {
   background-color: rgb(17, 1, 1);
   height: 19vh;
   padding: 1.5vh 0;
-  /* margin-bottom: 2vh; */
-  border-radius: 2vw;
+  border-top-left-radius: 1vw;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 1vw;
+  border-bottom-right-radius: 0vw;
 }
 #footer {
   color: rgb(205, 206, 207);
 }
-#donate {
+.texts {
+  width: 70%;
+  padding-bottom: 3vh;
+}
+#ghar-tera {
   width: 90%;
-  margin-left: 5vw;
+  margin: auto;
+  padding-left: 10vh;
+}
+.item {
+  width: 22vw;
+  height: 18vw;
+  padding: 5vh 3vh;
+  margin: 3vh;
+  /* border: 2px solid black; */
+  border-radius: 2vh;
+}
+#color1 {
+  background-color: rgba(187, 235, 219, 0.395);
+}
+#color2 {
+  background-color: rgba(240, 187, 243, 0.322);
+}
+#color3 {
+  background-color: rgba(244, 228, 181, 0.382);
+}
+form {
+  padding: 3vw 6vw;
+  background-color: rgba(251, 242, 189, 0.429);
+  width: 50%;
+  border-radius: 1vw;
+}
+#form {
+  margin-bottom: 10vh;
+}
+form input {
+  padding: 2.5vh 5vw;
+  color: rgb(241, 239, 237);
+  font-size: 1vw;
+  font-weight: 600;
+  border-top-left-radius: 1vw;
+  border-bottom-left-radius: 1vw;
+  border: none;
+  background-color: rgba(176, 172, 172, 0.325);
+}
+form a {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 1vw;
+  border-bottom-right-radius: 1vw;
+}
+.b-shadow {
+  box-shadow: 3px 3px 20px rgba(130, 150, 150, 0.685);
 }
